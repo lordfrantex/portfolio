@@ -1,0 +1,142 @@
+.heading-style {
+  text-align: center;
+  z-index: 10;
+  padding: 75px 0 50px 0;
+}
+
+.heading-style h2 {
+  background-color: white;
+  display: inline-block;
+  padding: 9px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-style h2::after {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  width: 30%;
+  right: -6px;
+  top: -6px;
+  height: 13px;
+  background-image: linear-gradient(234deg, rgb(99, 4, 4), orange);
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.heading-style h2::before {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  width: 30%;
+  left: -6px;
+  bottom: -6px;
+  height: 13px;
+  background-image: linear-gradient(125deg, orange, rgb(99, 4, 4));
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.about-container {
+  height: 500px;
+  background-color: rgb(253, 246, 237);
+  box-shadow: 1px 1px 5px rgba(141, 170, 170, 0.664);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
+  max-width: 1024px;
+}
+.about-container .image {
+  height: 100%;
+}
+.about-container .image img {
+  width: 100%;
+  border-radius: 13px;
+  height: 100%;
+}
+.about-container .description-container {
+  width: 60%;
+}
+.about-container .description-container .tiles {
+  display: flex;
+  gap: 15px;
+}
+.about-container .description-container .tiles > div {
+  border: 1px solid rgb(155, 182, 182);
+  border-radius: 14px;
+  padding: 4px 10px;
+  flex: 1;
+  background-color: rgb(173, 121, 47);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out all;
+}
+.about-container .description-container .tiles > div:hover {
+  border: 1px solid rgb(173, 121, 47);
+  background-color: white;
+  transform: scale(1.05);
+}
+.about-container .description-container .tiles > div:hover span,
+.about-container .description-container .tiles > div:hover h4,
+.about-container .description-container .tiles > div:hover p {
+  color: rgb(173, 121, 47);
+}
+.about-container .description-container .tiles > div span {
+  font-size: 35px;
+  color: white;
+}
+.about-container .description-container .tiles > div h4 {
+  font-family: "Poppins";
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+.about-container .description-container .tiles > div p {
+  color: white;
+  font-weight: 700;
+}
+.about-container .description-container .writeup {
+  margin: 20px 0;
+}
+.about-container .description-container .button {
+  display: flex;
+}
+.about-container .description-container .button button {
+  width: 160px;
+  padding: 10px 5px;
+  margin: 12px;
+  border-radius: 19px;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  outline: 0;
+  color: white;
+  transition: 0.4s ease-in-out all;
+  background-color: rgb(173, 121, 47);
+}
+.about-container .description-container .button button:hover {
+  background-color: rgb(146, 103, 43);
+}
+
+@media screen and (max-width: 1300px) {
+  .about-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .about-container .description-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tiles {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=aboutMe.css.map */

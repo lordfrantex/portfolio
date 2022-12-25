@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+.nav {
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 20px;
+    padding-bottom: 300px;
+    background-image: url('/public/media/pexels-afta-putta-gunawan-1250346.jpg');
+}
+
+.nav h1 {
+    padding-top: 100px;
+
+}
+
+.nav p {
+    display: block;
+    font-size: 2rem;
+    width: 40%;
+    margin: 20px 0;
+}
+
+.card {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid red;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.card .image-container {
+    width: 30%;
+}
+
+.card .card-info {
+    width: 60%;
+}
+
+.card-info p {
+    font-size: 1.15rem;
+}
+
+.card .card-info span {
+    font-size: large;
+    font-weight: 700;
+    margin: 5px 0;
+    display: block;
+}
+
+.card .image-container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.dot {
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(40, 38, 43);
+    right: 5px;
+    bottom: 5px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.card-container {
+    margin-top: 200px;
+}
+
+.skills {
+    border: 1px solid burlywood;
+    text-align: center;
+    z-index: 10;
+    padding: 23px;
+
+}
+
+.skills h2 {
+    background-color: white;
+    display: inline-block;
+    padding: 9px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.skills h2::after {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    width: 30%;
+    right: -6px;
+    top: -6px;
+    height: 13px;
+    background-image: linear-gradient(234deg, rgb(99, 4, 4), orange);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+.skills h2::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    width: 30%;
+    left: -6px;
+    bottom: -6px;
+    height: 13px;
+    background-image: linear-gradient(125deg, orange, rgb(99, 4, 4));
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}

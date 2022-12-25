@@ -1,0 +1,137 @@
+.skill-container {
+    display: flex;
+    width: 60%;
+    position: initial;
+    margin: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .skill {
+        position: relative;
+        margin-right: 40px;
+
+        circle {
+            fill: none;
+            stroke-width: 20px;
+            stroke-dasharray: 472;
+            stroke-dashoffset: 472;
+            transition: 2s linear;
+
+        }
+
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        &:nth-child(1) circle {
+            stroke: orange;
+            animation: anim1 2s linear forwards;
+
+
+        }
+
+        &:nth-child(2) circle {
+            stroke: rgb(47, 45, 187);
+            animation: anim2 2s linear forwards;
+
+
+        }
+
+        &:nth-child(3) circle {
+            stroke: rgb(185, 139, 53);
+            animation: anim3 2s linear forwards;
+
+
+        }
+
+        &:nth-child(4) circle {
+            stroke: rgb(102, 72, 17);
+            animation: anim4 2s linear forwards;
+
+
+        }
+
+        &:nth-child(5) circle {
+            stroke: rgb(112, 90, 68);
+            animation: anim5 2s linear forwards;
+
+
+        }
+
+        &:nth-child(6) circle {
+            stroke: rgb(14, 25, 48);
+            animation: anim6 2s linear forwards;
+
+
+        }
+
+        .outer {
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 6px 6px 10px -1px rgba(0 0 0 / .15),
+                -6px -6px 10px -1px rgba(225 225 225 / .7);
+
+            .inner {
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                box-shadow: inset 4px 4px 6px -1px rgba(0 0 0 / .2),
+                    inset -4px -4px 6px -1px rgba(225 225 225 /.7),
+                    -.5px -.5px 0px rgba(225 225 225 / 1),
+                    .5px .5px 0px rgba(0 0 0/ .15),
+                    0px 12px 10px -10px rgba(0 0 0 / 0.05);
+
+                .number {
+                    font-weight: 800;
+                    text-align: center;
+                    color: rgb(52, 57, 59);
+                }
+            }
+        }
+    }
+}
+
+@keyframes anim1 {
+    100% {
+        stroke-dashoffset: 80;
+    }
+}
+
+@keyframes anim2 {
+    100% {
+        stroke-dashoffset: 125;
+    }
+}
+
+@keyframes anim3 {
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@keyframes anim4 {
+    100% {
+        stroke-dashoffset: 120;
+    }
+}
+
+@keyframes anim5 {
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@keyframes anim6 {
+    100% {
+        stroke-dashoffset: 105;
+    }
+}

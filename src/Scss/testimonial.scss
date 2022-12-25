@@ -1,0 +1,126 @@
+.swiper {
+    width: 80%;
+    margin: 30px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    margin-top: 30px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    transition: .5s ease-in-out all;
+}
+
+.testifiers {
+    span.left-quote {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    span.right-quote {
+        top: 10px;
+        right: 10px;
+    }
+
+    span.right-quote,
+    span.left-quote {
+        position: absolute;
+        background-color: white;
+        color: rgb(185, 139, 53);
+        font-size: 30px;
+
+    }
+
+
+    box-shadow: 1px 1px 5px 1px rgba(102, 121, 124, 0.418);
+    position: relative;
+    padding: 55px 30px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 10;
+    transition: .4s ease-in-out all;
+
+    &:hover {
+        .image {
+            transform: rotate(315deg);
+            transition: .4s all ease-in-out;
+            padding-left: 15px;
+
+
+            img {
+                transform: rotate(45deg);
+
+
+            }
+        }
+
+        transform: scale(1.07);
+        box-shadow: 1px 1px 5px 1px rgba(57, 61, 61, 0.801);
+
+
+    }
+
+    .image {
+        width: 80px;
+        top: -40px;
+        z-index: 100;
+        left: 40%;
+        height: 80px;
+        background-color: white;
+        border: 3px solid red;
+        transform: rotate(45deg);
+        padding-left: 15px;
+
+        position: absolute;
+        transition: .5s ease-in-out all;
+
+        img {
+            width: 100%;
+            transform: rotate(-45deg);
+
+        }
+    }
+
+    .texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .stars {
+            display: flex;
+            font-size: 14px;
+            gap: 4px;
+            margin: 10px 0;
+            color: rgb(185, 139, 53);
+        }
+
+        .name {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            span:nth-child(1) {
+                font-size: 17px;
+                font-weight: 800;
+                font-family: 'Poppins';
+            }
+
+            span:nth-child(2) {
+                color: rgb(185, 139, 53);
+
+                font-family: 'Poppins';
+            }
+        }
+    }
+
+}
