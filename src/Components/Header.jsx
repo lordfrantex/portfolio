@@ -20,7 +20,7 @@ const Header = () => {
         <div className='header-container'>
             <nav className="navigation">
                 <div className="logo">
-                    <h3>Fran<span>tex</span></h3>
+                    <img src="/media/logo-edited.png" alt="" />
                 </div>
                 <span className='bar' onClick={openNav}>
                     <FontAwesomeIcon icon={faBarsStaggered}></FontAwesomeIcon>

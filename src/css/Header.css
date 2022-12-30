@@ -10,7 +10,16 @@
 nav.navigation {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav.navigation .logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+nav.navigation .logo img {
+  width: 100%;
 }
 nav.navigation ul {
   list-style-type: none;
@@ -71,9 +80,10 @@ section.intro-section .vector-image img:nth-child(1) {
 }
 section.intro-section .vector-image img:nth-child(2) {
   position: absolute;
-  top: 0;
+  top: -15px;
+  width: 370px;
   z-index: 20;
-  right: 18%;
+  right: 14%;
 }
 section.intro-section .intro-text {
   width: 50%;

@@ -56,7 +56,7 @@ const Home = () => {
                 }}
             >
                 <img src="/media/graph.png" alt="" />
-                <img src="/media/boy.png" alt="" />
+                <img src="/media/cut_8486.png" alt="" />
 
             </motion.div>
             <span className="whatsApp">

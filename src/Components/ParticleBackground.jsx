@@ -1,16 +1,4 @@
 import React from 'react'
-// import Particles from 'react-tsparticles'
-// import ParticleConfig from '../config/Particle-config'
-
-// const ParticleBackground = () => {
-//     return (
-//         <Particles params={ParticleConfig}></Particles>
-//     )
-// }
-
-// export default ParticleBackground
-
-
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";

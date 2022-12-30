@@ -13,9 +13,12 @@
   justify-content: center;
 }
 .contact-container .contact-left .image {
-  border: 1px solid red;
   width: 160px;
   height: 160px;
+  border-radius: 50%;
+}
+.contact-container .contact-left .image img {
+  width: 100%;
   border-radius: 50%;
 }
 .contact-container .contact-left .icon {

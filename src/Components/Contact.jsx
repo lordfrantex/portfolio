@@ -42,6 +42,7 @@ const Contact = () => {
             <div className="contact-container">
                 <div className="contact-left">
                     <div className="image">
+                        <img src="/media/cropped.png" alt="" />
 
                     </div>
                     <div className="icon">

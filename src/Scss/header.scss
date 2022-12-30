@@ -10,7 +10,18 @@
 nav.navigation {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 10px 20px;
+
+    .logo {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
 
     // ul
     ul {
@@ -85,9 +96,11 @@ section.intro-section {
 
             &:nth-child(2) {
                 position: absolute;
-                top: 0;
+                top: -15px;
+                width: 370px;
+                // height: 200px;
                 z-index: 20;
-                right: 18%;
+                right: 14%;
             }
         }
 

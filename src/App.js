@@ -9,6 +9,7 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import ParticleBackground from "./Components/ParticleBackground";
 import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <Resume />
       <Testimonial />
       <Contact />
+      <Footer />
 
     </div>
   );
