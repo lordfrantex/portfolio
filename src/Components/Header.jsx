@@ -40,12 +40,14 @@ const Header = () => {
 
             </nav>
             <ul className={`show-nav ${!open ? 'open-nav' : 'hide-nav'}`}>
-                <li className="home"> <Link to='/'>Home</Link> </li>
-                <li className="home"> <Link to='#'>About me</Link> </li>
-                <li className="home"> <Link to='/skills'>Skills</Link> </li>
-                <li className="home"> <Link to='/testimonial'>Testimonials</Link> </li>
-                <li className="home"> <Link to='/resume'>Resume</Link> </li>
-                <li className="home"> <Link to='#'>Contact me</Link> </li>
+                <li className="home"> <Link smooth to='#home'>Home</Link> </li>
+                <li className="home"> <Link smooth to='#about'>About me</Link> </li>
+                <li className="home"> <Link smooth to='#skill'>Skills</Link> </li>
+                <li className="home"> <Link smooth to='#projects'>Projects</Link> </li>
+                <li className="home"> <Link smooth to='#resume'>Resume</Link> </li>
+                <li className="home"> <Link smooth to='#testimonial'>Testimonials</Link> </li>
+                <li className="home"> <Link smooth to='#contact'>Contact me</Link> </li>
+
 
             </ul>
         </div>
