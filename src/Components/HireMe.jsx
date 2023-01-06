@@ -11,8 +11,10 @@ const HireMe = () => {
 
             <div className='hire-container'>
                 <div className="hire-text">
-                    Are you having issues getting clients? Does your business need more visibility in the circular space?
-                    Then you are in the right place. Below are some of the services I offer.
+                    <p>
+                        Are you having issues getting clients? Does your business need more visibility in the circular space?
+                        Then you are in the right place. Below are some of the services I offer.
+                    </p>
                     <ul>
                         <li>
                             <span><FontAwesomeIcon icon={faPenNib}></FontAwesomeIcon> </span>

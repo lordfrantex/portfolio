@@ -12,11 +12,11 @@
 }
 .project-container .project-card {
   width: 300px;
-  height: 300px;
+  height: 600px;
   margin: 10px;
   position: relative;
   border-radius: 17px;
-  border: 1px solid rgb(86, 115, 116);
+  border: 1px solid rgb(112, 170, 172);
   cursor: pointer;
   overflow: hidden;
 }
@@ -37,6 +37,9 @@
 }
 .project-container .project-card .icons span {
   transition: 0.25s ease-in-out all;
+}
+.project-container .project-card .icons span a {
+  color: white;
 }
 .project-container .project-card .icons span:hover {
   transform: scale(1.1);

@@ -24,14 +24,19 @@ h3.hire {
   margin-left: auto;
   background-color: white;
   box-shadow: 0px -1px 5px 1px rgb(156, 168, 170);
-  padding: 10px;
+  padding: 30px 10px;
+}
+.hire-container .hire-text p {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 .hire-container .hire-text ul {
   margin: 5px 0;
 }
 .hire-container .hire-text ul li {
   color: rgb(94, 141, 32);
-  font-size: 1.11rem;
+  font-size: 1.15rem;
+  margin: 5px 0;
   font-family: "Poppins";
 }
 .hire-container .hire-text ul li span {

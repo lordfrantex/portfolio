@@ -14,9 +14,7 @@ nav.navigation {
     padding: 10px 20px;
 
     .logo {
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
+        width: 160px;
 
         img {
             width: 100%;
@@ -144,6 +142,11 @@ section.intro-section {
                 padding: 5px 10px;
                 border-radius: 12px;
                 transition: .3s ease-in-out all;
+
+                a {
+                    font-size: 20px;
+                    color: white;
+                }
 
                 &:hover {
                     scale: 1.15;

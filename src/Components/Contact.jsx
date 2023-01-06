@@ -46,11 +46,11 @@ const Contact = () => {
 
                     </div>
                     <div className="icon">
-                        <span><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></span>
-                        <span><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></span>
-                        <span><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></span>
-                        <span><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></span>
-                        <span><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></span>
+                        <span> <a href="https://github.com/lordfrantex"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></span>
+                        <span> <a href="https://twitter.com/L_Franktex"> <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></span>
+                        <span> <a href="https://web.facebook.com/lord.franktex.9"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a></span>
+                        <span> <a href="https://www.linkedin.com/in/lord-franktex-37b869235/"> <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a></span>
+                        <span> <a href="https://www.instagram.com/lordfrantex/"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a></span>
                     </div>
                     <p>lordfranktex@gmail.com</p>
                     <p>08102300105</p>

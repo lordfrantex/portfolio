@@ -5,30 +5,7 @@ import { faCoffee, faSquareCaretUp, faBarsStaggered, faAward, faCodeFork, faBarC
 import { faFacebook, faGithub, faLinkedinIn, faTwitter, } from '@fortawesome/free-brands-svg-icons'
 
 const Projects = () => {
-    const projectCards = (
-        <div className="project-card">
-            <img src="../media/firstProject.png" alt="" />
-            <div className="icons">
-                <span>
-                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-                </span>
-                <span>
 
-                    <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-                </span>
-                <span>
-
-                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                </span>
-                <span>
-
-                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                </span>
-
-            </div>
-        </div>
-
-    )
 
     return (
         <div id='projects'>
@@ -36,9 +13,30 @@ const Projects = () => {
                 <h2>My Projects</h2>
             </div>
             <div className="project-container">
-                {projectCards}
-                {projectCards}
-                {projectCards}
+
+
+                <div className="project-card">
+                    <img src="../media/firstProject.png" alt="" />
+                    <div className="icons">
+                        <span>
+                            <a href="https://github.com/lordfrantex/portfolio" target="_blank"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
+                        </span>
+
+
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src="../media/secondSite.png" alt="" />
+                    <div className="icons">
+                        <span>
+                            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </span>
+
+
+                    </div>
+                </div>
+
+
             </div>
         </div>
     )

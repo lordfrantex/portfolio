@@ -23,10 +23,20 @@
 }
 .contact-container .contact-left .icon {
   display: flex;
+  cursor: pointer;
 }
 .contact-container .contact-left .icon span {
   font-size: 22px;
   margin: 10px;
+  padding: 0 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.contact-container .contact-left .icon span a {
+  color: black;
+}
+.contact-container .contact-left .icon span:hover {
+  border: 1px solid rgb(155, 132, 132);
 }
 .contact-container .contact-left p {
   font-weight: 700;

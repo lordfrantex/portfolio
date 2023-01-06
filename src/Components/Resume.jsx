@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import '../css/resume.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faSquareCaretUp, faBarsStaggered, faAward, faCodeFork, faBarChart, faCookieBite, faTimes, faClock, faCircle, faMinus } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faSquareCaretUp, faBarsStaggered, faAward, faCodeFork, faBarChart, faCookieBite, faTimes, faClock, faCircle, faMinus, faCode, faMapLocationDot, faMap, faMusic, faBookJournalWhills } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faLinkedinIn, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { NavLink } from 'react-router-dom'
 import { NavHashLink as Link } from 'react-router-hash-link'
@@ -163,10 +163,35 @@ const Resume = () => {
                         </div>
 
                     </div>
-                    <div className="education" id='interest'>
-                        Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet
-                        consecteturLorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Eaque quas cumque ipsam explicabo pariatur, molestias ex dignissimos fugiat? Impedit officia dolorem aspernatur exercitationem delectus reiciendis unde, est provident recusandae sapiente.
+                    <div className="interest" id='interest'>
+                        <div className="single-interests">
+                            <span> <FontAwesomeIcon icon={faCode}></FontAwesomeIcon> </span>
+                            <div className="">
+                                <h4>Coding</h4>
+                                <p>I actually love programming, coding and engaging critical thinking to solve problems related to web development.</p>
+                            </div>
+                        </div>
+                        <div className="single-interests">
+                            <span> <FontAwesomeIcon icon={faMap}></FontAwesomeIcon> </span>
+                            <div className="">
+                                <h4>Research</h4>
+                                <p>I like learning, researching and testing out new things and figuring out ways to integrate amazing functionalities.</p>
+                            </div>
+                        </div>
+                        <div className="single-interests">
+                            <span> <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon> </span>
+                            <div className="">
+                                <h4>Music</h4>
+                                <p>I like music generally (Gospel, Jazz, Ariara, etc). I also play the trumpet. </p>
+                            </div>
+                        </div>
+                        <div className="single-interests">
+                            <span> <FontAwesomeIcon icon={faBookJournalWhills}></FontAwesomeIcon> </span>
+                            <div className="">
+                                <h4>Reading</h4>
+                                <p>I enjoy reading books for personal and mental development.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

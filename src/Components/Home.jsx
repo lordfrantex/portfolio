@@ -31,15 +31,14 @@ const Home = () => {
                     with tons of experience in developing
                     websites and web apps.  </p>
                 <div className="icon">
-                    <span><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></span>
-                    <span><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></span>
-                    <span><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></span>
-                    <span><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></span>
-                    <span><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></span>
+                    <span> <a href="https://github.com/lordfrantex"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></span>
+                    <span> <a href="https://twitter.com/L_Franktex"> <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></span>
+                    <span> <a href="https://web.facebook.com/lord.franktex.9"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a></span>
+                    <span> <a href="https://www.linkedin.com/in/lord-franktex-37b869235/"> <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a></span>
                 </div>
                 <div className="call-to-action">
                     <span><Link to='#'> <button className='resume'> Download Resume</button></Link></span>
-                    <span><Link to='#contact'> <button className='hire'> Hire Me</button></Link></span>
+                    <span><Link smooth to='#contact' > <button className='hire'> Hire Me</button></Link></span>
                 </div>
             </div>
             <motion.div className="vector-image"
@@ -62,7 +61,7 @@ const Home = () => {
             <span className="whatsApp">
                 <a href="https://wa.link/fto6h0">  <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon></a>
             </span>
-        </section>
+        </section >
     )
 }
 

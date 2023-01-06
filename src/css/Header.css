@@ -14,9 +14,7 @@ nav.navigation {
   padding: 10px 20px;
 }
 nav.navigation .logo {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
+  width: 160px;
 }
 nav.navigation .logo img {
   width: 100%;
@@ -119,6 +117,10 @@ section.intro-section .intro-text .icon span {
   padding: 5px 10px;
   border-radius: 12px;
   transition: 0.3s ease-in-out all;
+}
+section.intro-section .intro-text .icon span a {
+  font-size: 20px;
+  color: white;
 }
 section.intro-section .intro-text .icon span:hover {
   scale: 1.15;

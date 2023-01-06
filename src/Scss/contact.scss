@@ -25,10 +25,23 @@
 
         .icon {
             display: flex;
+            cursor: pointer;
 
             span {
                 font-size: 22px;
                 margin: 10px;
+                padding: 0 5px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+
+                a {
+                    color: black;
+                }
+
+                &:hover {
+                    border: 1px solid rgb(155, 132, 132);
+
+                }
             }
         }
 

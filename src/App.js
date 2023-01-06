@@ -10,6 +10,7 @@ import Contact from "./Components/Contact";
 import ParticleBackground from "./Components/ParticleBackground";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
+import Preloader from "./Components/Preloader";
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+      <Preloader />
 
     </div>
   );

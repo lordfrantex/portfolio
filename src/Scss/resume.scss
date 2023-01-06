@@ -226,6 +226,16 @@
     }
 }
 
+.interest {
+    .single-interests {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+        font-size: 20px;
+
+    }
+}
+
 @media screen and (max-width:900px) {
     .resume-container {
         flex-direction: column;
